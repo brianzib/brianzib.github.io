@@ -1,0 +1,198 @@
+<!doctypehtml>
+
+<html>
+
+	
+	<head>
+
+		<meta charset = "utf-8"/>
+		
+		<base href = "file:///Z:/Computer%20Science/Programming%20(Practical)/Website%20Development/Website%20Pages-20211115T085009Z-001/Website%20Pages/Home-Page.html"">
+
+		<link href = "Style-Sheet.css" rel = "stylesheet" type = "text/css" />
+
+		<title> Brian Zibiri's A-level Revision site </title>
+		
+		
+	</head>
+	
+	<header>
+		
+		 <div class="container">
+		 
+		
+       
+
+      <nav>
+        <ul>
+				<li><a href = "#">Home</a></li> 
+				<li><a href = "Theory-Topics.html">Theory Topics </a></li> 
+				<li><a href = "Practical-Topics.html">Practical Topics</a></li> 
+				<li><a href = "Code-List.html">Code List</a></li>
+				<li><a href = "Revision-Material.html">Revision Material</a></li> 
+				<li><a href = "Glossary-Page.html">Glossary</a></li>
+        </ul>
+      </nav>
+    </div>
+		
+		</header>
+	
+	
+	
+
+	<body>
+	
+	<h1 id = "Contents-Pages-Header"> Fundamentals of Computer Organisation and arhitecture </h1>
+	
+	<div id = "Computer-Org-and-ARC-Introduction">
+	
+	<pre>
+	
+	<p> The CPU is the computational brain of any modern system. It is responsible for decoding and executing instructions fetched from RAM (main memory).
+	This is known as the Fetch-Execute-Decode cycle which will be covered later on. First lets remind ourselves of the basic components that are
+	neccesary for the computer to be able to process and act on information.</p><ul>	
+	<li> First off we have Main Memory or RAM. This is responsible for housing instructions; 
+	addresses for instructions and data for those instructions </li>
+	<li> Next we have the CPU, standing for Central Processing unit. The CPU is where all of the instructions are handeled and executed </li>
+	<li> Then there are the buses that are responsible for transporting information between Main Memory and the CPU. 
+	There are three main types of buses: The Address Bus, the data bus, and the control bus. </li>
+	<li> Last but not least we have the I/O Controllers. These are resposible for managing input and output </li>
+	</ul>
+	
+	
+	<section>
+	
+
+	
+	<h2> Harvard and Von-Neumann Architectures </h2>  
+	
+	<p>
+	There are two types of architectures that a processor can take the form of
+	These are known as the Harvard and the Von-Neumann arhitecture. Both different features 
+	components within them but they both follow the <strong> <a href = "Stored-Program"> Stored Program Concept. </a> </strong> 
+	These architectures both originated from arounf the 1940s and therefore are no longer acctully used on modern systems. All modern architectures 
+	are simpl refered to as 'Contemporary' Architectures.
+	</p>
+	
+	<h3> Harvard Arhitecture </h3>
+	
+	The Harvard architecture is a computer design that separates instructions and data storage and signal channels. 
+	It differs from the von Neumann architecture, which uses the same memory and paths for programme instructions and data.
+
+	<img src = "harvard_architecture.jpg" alt = "The Harvard Architecture"> 
+
+	The Harvard architecture summed up:
+	<ul><li> Instructions and data are stored in seperate memory units </li><li> Each has it's own bus </li><li> Reading and writing data can be done at the same time </li><li> Used by <strong> RISC </strong> processor </li>
+	</ul>
+	
+	<h3> Von-Nuemann Architeture </h3>
+	
+	<p>
+	The Von-Nuemann architecture now mean any form of stored-program computer where an the fetching of an instruction and a data operation
+	cannot be completed simultaneously. This is because both data and instructions share a common bus: the data bus. 
+	</p>
+	<img src = "Von.jpg" alt = "The Von-Nuemann Architecture">
+	
+	Von-Nuemann Architecture summed up:
+	
+	<ul><li> Shared memory space fo instructions and data </li><li> Instructions and data are stored in the same format </li><li> A single control unit or processor follows a linear fetch-execute-decode cycle </li><li> One instruction is executed at a time </li><li> registers are used as used as fast access points to insructions and data </li> 
+	</ul>
+	
+	
+	<h2> RISC and CISC Processors </h2>
+	
+	Lets start off with talking about <strong> the instruction set </strong>. The instruction set is the range of instructions that a computer
+	execute. This then leads on to two types of processors.<strong> RISC </strong> (Reduced instruction set Computers) and <strong> CISC </strong> (Complex Instruction Set Computers)
+	
+	<h2 id = "Stored-Program"> The Stored Program Concept </h2>
+	
+	The stored program concept is a concept which allows for instructions to be stored on-board the CPU. This means that 
+	the CPU does not constantly have to search for instructions (thoeretically) from Main Memory. This.
+	
+	<h2> Fetch-Decode-execute Cycle </h2>
+	
+	<h3> Assembly Language </h3>
+	
+<section id = "Introduction">
+<p>
+For the exam you will be using the instruction set issued by the Exam bored (AQA)
+This instruction set for assembly language is different from other instructions sets and mus tbe followed 
+closely otherwise you will loose marks.
+<p>
+<ul>
+	<li> To load an instruction you will use the LDR command, then specify the register which will store
+	the following values in the listed memory directory </li>
+	<img src ="AQA load.png" alt = "AQA load command"> 
+	<li> To store a vlaue you will use the STR command, then specify the register which will then take the value 
+	in that register and store it the the following memeory loaction (given using <memory ref>)</li>
+	<img src = "AQA store.png" alt "AQA store command">
+	<li> To add two values together you will use the ADD command, then give two registers, the first is where 
+	the end result will be stored and the second is where the number you are adding to is currently stored.
+	You will the enter the second number you would like to use to do the addition using <> with the number inside </li>
+	<img src = "AQA add.png" alt = "AQA addition command">
+	<li> To subtract two numbers using assembly language you will use the SUB command. This works in the same way
+	the addition command works except it subtracts rather than adds </li>
+	<img src = "AQA sub.png" alt = "AQA subtraction command">
+	<li> To move a value from the operand into a register you first use the MOV command, 
+	followed by the register you are copying into and then the operand </li>
+	<img src = "AQA move.png" alt = "AQA copy value command">
+	<li> In order to compare two values you must first use the CMP command
+	you would then call the register that you would be using to compare agiant and the 
+	value you are comparing in <> </li>
+	<img src = "AQA compare.png">
+	<li> To use the branch command, whihc is called upon using B. YOu would then in <>
+	write the label, this must be identical to the other label as this is where it will jump to when 
+	the bracn command is called upon </li>
+	<img src = "AQA branch.png" ald = "AQA branch command">
+	<li> If you would like to branch to an instructyio only when a specific condition is met, you would
+	first call the branch command, as stated before using B, then you would give the condition in angled brackets
+	After you have done that you give the label that you want to branch to. </li>
+	<img src = "AQA branch cond.png" ald = "AQA branch command">
+	<img> If you would like to use a bitwise operator, you would call the command, the register you would like to store the result in
+	the register with the value you are testing against and the operand </li>
+	<img src = "AQA AND.png"> <img src = "AQA NOT.png"> 
+	<img src = "AQA OR.png"> <img src = "AQA XOR.png">
+</ul>
+</section>
+	<p>
+	The fetch-execute-decode is a cycle that allows the CPU to fetch instructions/data, </strong> decode </strong> those instructions/data amd then execute them.
+	Below are diagrams showing the fetch execute decode cycle in action, there is also an explenation for each step as we go on.
+	</p>
+	<img src = "Start+Step1 FDE.png" alt = "The start and step one of the FDE cycle using assembly language">
+	<caption> The fisrt instruction is 'MOV AL, #6. The command that has been issued is the MOV command, which is the move instruction.
+	The AL, refers to the register that the following operand (#6) will be stored in. So this command essentially takes a value and places 
+	it into the register. </caption>
+	
+	<img src = "Step2+Step3 FDE.png" alt = "The second and third step of the FDE cu=ycle using assembly language">
+	<caption> As mentioned above, the value (#6) at the end of the instrruction is moved into the register AL,
+	this is because of <strong> immediate adressing </strong> Meaning that the data to be moved is at the end 
+	o fthe instruction itself. The third step is moving on to the next instruction, which is ADD #12, #14; </caption>
+	
+	<img src = "Step4 FDE.png" alt = "Fourth step of the FDE cycle using assembly language">
+	<caption> The ADD instruction uses arithmatic logic to add to value together, the instrucion has already been stored in 
+	the current instruction register, so this step only looks at the execution of the instruction. (The current instruction register is named
+	IR in the diagram above)</caption>
+	
+	<img src = "Step5 FDE.png" alt = "Fith step of the FDE cycle using assembly language">
+	<caption> As immediate addressing is being utilized, the operand is at the end of the instruction (#14)
+	Both data value are then transferred to the ALU for the operation to occur. </caption>
+	
+	<img src = "Step6 and END FDE.png" alt = "The sixth and final step of the FDE cycle using assembly language">
+	<caption> The ALU then carries out the addition operation, adding 12 and 14 and giving out a value of 16 which
+	is stored in the accumilator. The END instruction finished the program as there are no more instructions left to
+	execute </caption>
+	
+	
+	
+	
+	</pre>
+	
+	</section>	
+	
+	</body>
+
+
+
+
+
+</html>

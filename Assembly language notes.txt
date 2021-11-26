@@ -1,0 +1,42 @@
+
+<section id = "Introduction">
+dds<p>
+For the exam you will be using the instruction set issued by the Exam bored (AQA)
+This instruction set for assembly language is different from other instructions sets and mus tbe followed 
+closely otherwise you will loose marks.
+<p>
+<ul>
+	<li> To load an instruction you will use the LDR command, then specify the register which will store
+	the following values in the listed memory directory </li>
+	<img src ="AQA load.png" alt = "AQA load command"> 
+	<li> To store a vlaue you will use the STR command, then specify the register which will then take the value 
+	in that register and store it the the following memeory loaction (given using <memory ref>)</li>
+	<img src = "AQA store.png" alt "AQA store command">
+	<li> To add two values together you will use the ADD command, then give two registers, the first is where 
+	the end result will be stored and the second is where the number you are adding to is currently stored.
+	You will the enter the second number you would like to use to do the addition using <> with the number inside </li>
+	<img src = "AQA add.png" alt = "AQA addition command">
+	<li> To subtract two numbers using assembly language you will use the SUB command. This works in the same way
+	the addition command works except it subtracts rather than adds </li>
+	<img src = "AQA sub.png" alt = "AQA subtraction command">
+	<li> To move a value from the operand into a register you first use the MOV command, 
+	followed by the register you are copying into and then the operand </li>
+	<img src = "AQA MOV.png alt = "AQA copy value command">
+	<li> In order to compare two values you must first use the CMP command
+	you would then call the register that you would be using to compare agiant and the 
+	value you are comparing in <> </li>
+	<img src = "AQA CMP.png>
+	<li> To use the branch command, whihc is called upon using B. YOu would then in <>
+	write the label, this must be identical to the other label as this is where it will jump to when 
+	the bracn command is called upon </li>
+	<img src = "AQA branch.png" ald = "AQA branch command">
+	<li> If you would like to branch to an instructyio only when a specific condition is met, you would
+	first call the branch command, as stated before using B, then you would give the condition in angled brackets
+	After you have done that you give the label that you want to branch to. </li>
+	<img src = "AQA branch cond.png" ald = "AQA branch command">
+	<img> If you would like to use a bitwise operator, you would call the command, the register you would like to store the result in
+	the register with the value you are testing against and the operand </li>
+	<img src = "AQA AND> <img src = "AQA NOT> <img src = "AQA OR> <img src = "AQA XOR>
+</ul>
+</section>
+

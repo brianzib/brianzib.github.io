@@ -1,0 +1,105 @@
+<!doctypehtml>
+
+<html>
+
+	
+	<head>
+
+		<meta charset = "utf-8"/>
+		
+		<base href = "file:///Z:/Computer%20Science/Programming%20(Practical)/Website%20Development/Website%20Pages-20211115T085009Z-001/Website%20Pages/Home-Page.html">
+
+		<link href = "Style-Sheet.css" rel = "stylesheet" type = "text/css" />
+
+		<title> Brian Zibiri's A-level Revision site </title>
+		
+		
+	</head>
+	
+	<header>
+		
+		 <div class="container">
+		 
+		
+       
+
+      <nav>
+        <ul>
+				<li><a href = "#">Home</a></li> 
+				<li><a href = "Theory-Topics.html">Theory Topics </a></li> 
+				<li><a href = "Practical-Topics.html">Practical Topics</a></li> 
+				<li><a href = "Code-List.html">Code List</a></li>
+				<li><a href = "Revision-Material.html">Revision Material</a></li> 
+				<li><a href = "Glossary-Page.html">Glossary</a></li>
+        </ul>
+      </nav>
+    </div>
+		
+		</header>
+	
+	
+	
+
+	<body>
+	
+	<h1 id = "Contents-Pages-Header"> Fundamentals Of Data Representation </h1>
+	
+	<pre> 
+	
+	<h2> Introduction to Data Representation </h2>
+	
+	Data representatio is a way of showing a number which can represent a piece of data in several different ways.
+	First lets take a look at the different types of numbers there are before we dive into the forms that they can take.
+	
+	<ul><li> Integer Numbers: These are whole numbers including both positive and negative numbers </li><li> Rational Numbers: These are numbers that are either integers or can be written as a fraction of an integer </li><li> Irational Numbers: These are numbers that <strong> cannot </strong> be written as a fraction of an integer </li><li> Ordinal Numbers: These are numbers that refer to a posiion of an item in relation to other items of significance e.g. <br> First, Second, Third etc </li><li> Real Numbers: A set for all numbers in the following catagories: Natural, Rational and Irrational numbers </li></ul>
+	
+	<section>
+	
+	<h2> Number Bases </h2>
+
+	<p>
+	There are different types of ways to show a single value, these are known as number bases. 
+	There are 3 types of number bases that are covered in the spec as well as an extra onemptied
+	</p>
+	<ol><li> Denary (0 - 9) </li><li> Binary (1 and 0) </li><li> Hexadecimal or HEX (0 - 9 the A for 10, B for 11 and so on up to F which is 15)</li></ol>
+	<br> 
+	There is an extra type of number base which is not mentioned in the spec known as OCT (0 - 8) but we willl not talk
+	about it here.
+	
+	<h2> Data converstion </h2>
+	<p>
+	Since there are different ways to display a single value there must also be ways to convert the value between the differnt number bases.
+	All number bases can be converted to each other with a few simple steps. However, as the number values become larger it becomes
+	more and more complecated to convert and therefore: in exams you will not have to generally convert number larger than <em> 8 bits </em> 
+	</p>
+	
+	<h3> Binary to Denary Coverstion </h3>
+	<p>
+	A binary number can be converted to denary (and vice versa) using the grid below, which goes up to 8 bits (255).<p>
+	<img src = "Conver.jpg" alt = "A Binary Conversion Grid">
+	<p>
+	The process is fairly simple. You go from the largest available number in the grid,
+	and total the numbers as you go along for each 1 present in the grid. Please bear in mind the kind of binary number it is 
+	If it is unsigned take the end result to always be positive. Otherwise a 1 at the start of the number is a signature for the
+	number being negative, and a 0 for it being positive.<p>
+	
+	<h3> Denary to Binary </h3>
+	<p>
+	The above process can simply be reversed in order to get the binary equivalent of a denary value:
+	<ol><li> Go from left to right subtracting the largest possible number from the number you are converting in relation to the grid </li><li> Place a 1 for every part of the grid where you have subtracted the corresponding number </li><li> Total the numbers to make sure you havent made any mistakes </li></ol>
+	
+	<h3> Binary to Hexadecimal </h3>
+	<p> The same grid can be used to convert Binary to Hexadecimal as Binary to denary. Except the process is slighly 
+	different.<p>
+	<ol><li>Place the 1s and 0s in the grid as you normally would (left to right).</li><li>Split the grid in half each half being 4 bits (15, 1 - 8).</li><li>Add up the Numbers as you were converting it to denary and then convert the denary value to the corresponding HEX</li></ol>
+	<img src = "Hex Tab.jpg" alt = "Hex Conversion Table Values">
+	
+	</section>
+	
+	</body>
+
+
+
+
+
+</html>
