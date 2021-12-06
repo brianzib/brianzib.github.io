@@ -1,3 +1,4 @@
+	
 #Glossary-Heading {
 
 	font-family: san-serif;
@@ -47,7 +48,19 @@
 			
 	}
 	
+#Nav-bar {
+		
+		width: 100%;
+		
+		margin: 0;
+		
+		padding: 0;
 
+		list-style: none;
+	
+	
+}	
+	
 body {
 
 	margin: 0;
@@ -68,9 +81,27 @@ body {
 
 }
 
+header {
+
+  background: #55d6aa;
+
+}
+
+header::after {
+
+  content: '';
+
+  display: table;
+
+  clear: both;
+
+}
+
+
+
 nav {
 
-  position: absolute; top: auto;
+  float: right;
 
 }
 
@@ -105,6 +136,7 @@ nav a {
   
   font-size: 14px;
 }
+
 
 
 nav a::before {
@@ -174,35 +206,3 @@ a:link {
 	color:#444;
 	
 }
-
-a:visited {
-	
-	text-decoration: none;
-	
-	color: #444;
-	
-}
-
-#Half-Adder {
-	
-	width: 50%;
-	
-	height: 50%;
-	
-}
-#Full-Adder {
-	
-	width: 50%;
-	
-	height: 50%;
-	
-}
-
-.Homepage-Container
-{
-
-  position: absolute; top: 15px;
-
-}
-
-
