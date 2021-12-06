@@ -5,8 +5,10 @@
 	<head>
 
 		<meta charset = "utf-8"/>
-	
-		<link href = "index.css" rel = "stylesheet" type = "text/css" />
+		
+		<base href = "file:///Z:/Computer%20Science/Programming%20(Practical)/Website%20Development/Website%20Pages-20211115T085009Z-001/Website%20Pages/Home-Page.html">
+
+		<link href = "Style-Sheet.css" rel = "stylesheet" type = "text/css" />
 
 		<title> Brian Zibiri's A-level Revision site </title>
 		
@@ -17,31 +19,44 @@
 	</head>
 
 	<body>
-
-
-	<div class = "Homepage-Container">
-
-		<div>
-
-			
+		<div id = "Seacrh-Bar" class = "container" >
+		<div class "searh">
+			<div class = "icon"></div>
+				<div class = "input"></div>
+		</div>
+		<span class = "clear" onclick = "document.getElementById('mySearch').value = ''"></span>	
+		<script>
+		
+		const icon = document.querySelector('.icon');
+		const seacrh = document.querySelector('.search');
+		icon.onclick = function() {
+		search.classList.toggle('acive');
+		}
 		
 		
-			  <nav>
-				<ul>
-						<li><a href = "#">Home</a></li> 
-						<li><a href = "Theory-Topics.html">Theory Topics </a></li> 
-						<li><a href = "Practical-Topics.html">Practical Topics</a></li> 
-						<li><a href = "Code-List.html">Code List</a></li>
-						<li><a href = "Revision-Material.html">Revision Material</a></li> 
-						<li><a href = "Glossary-Page.html">Glossary</a></li>
-						
-				</ul>
-			  </nav>
-			</div>
-			
+		
+		</script>
+		
+			<header>
+		
+		 <div class="container">
+		 
+		
+       
 
-</div>
-
+      <nav>
+        <ul>
+				<li><a href = "#">Home</a></li> 
+				<li><a href = "Theory-Topics.html">Theory Topics </a></li> 
+				<li><a href = "Practical-Topics.html">Practical Topics</a></li> 
+				<li><a href = "Code-List.html">Code List</a></li>
+				<li><a href = "Revision-Material.html">Revision Material</a></li> 
+				<li><a href = "Glossary-Page.html">Glossary</a></li>
+				
+        </ul>
+      </nav>
+    </div>
+	
 		<h1 id = "HomePage-heading" > A-level Revision site </h1>
 
 		<section>
