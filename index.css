@@ -217,12 +217,12 @@ box-sizing: border-box;
 font-family: sans-serif;
 }
 
-
 .Search-Whole
 {
 padding-top: 100px;
 align-items: top;
 }
+
 .search
 {
 position: relative;
@@ -234,6 +234,7 @@ transition: 2s;
 box-shadow: 0 0 0 5 #2573ef; 
 overflow: hidden; 
 }
+
 .search .icon{
 display: flex;
 position: absolute;
@@ -243,7 +244,6 @@ width: 60px;
 height: 60px;
 background: #fff;
 border-radius: 60px;
-
 justify-content: center;
 align-items: center;
 z-index: 1000;
@@ -276,11 +276,9 @@ cursor: pointer;
 }
 .search.active
 {
-
 width: 1920px;
-
-
 }
+
 .search .input
 {
 position: relative;
@@ -291,6 +289,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
 .search .input input
 {
    position: absolute;
@@ -302,6 +301,7 @@ align-items: center;
    font-size: 18px;
     padding: 10px 0;
 }
+
 .clear
 {
     position: absolute;
@@ -316,6 +316,7 @@ align-items: center;
     align-items: center;
     background: #fff;
 }
+
 .clear::before{
    
      position: absolute;  
@@ -326,6 +327,7 @@ align-items: center;
      transform: rotate(45deg);
 
 }
+
 .clear::after{
    
     position: absolute;
