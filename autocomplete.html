@@ -1,0 +1,28 @@
+<!doctypehtml>
+
+<html>
+
+    <head>
+
+        <link href = "auto.css" rel = "stylesheet" type = "text/css"></link>
+
+
+    </head>
+
+    <body>
+        <form autocomplete="off" action="/action_page.php">
+            <div class="autocomplete" style="width:100%;">
+            <input id="myInput" type="text" name="mySearch" placeholder="Search">
+            </div>
+            <input type="submit">
+        </form>
+    </body>
+
+    <script src = "auto.js"></script>
+
+    <script>
+        autocomplete(document.getElementById("myInput"), countries);
+    </script>
+
+
+</html>
