@@ -74,21 +74,40 @@ body {
 
 .container {
 
-	width: 80%;
+	width: 100%;
 
 	margin: 0 auto;
 
 }
 
+header {
+
+  background: #55d6aa;
+
+}
+
+header::after {
+
+  content: '';
+
+  display: table;
+
+  clear: both;
+
+}
 
 
 
 nav {
-
+	
 	float: left;
+	
 	padding-left: 12%;
+	
 	background: white;
-  width: 100%
+
+    width: 100%
+  
 
 }
 
