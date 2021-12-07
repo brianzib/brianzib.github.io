@@ -74,7 +74,7 @@ body {
 
 .container {
 
-	width: 80%;
+	width: 100%;
 
 	margin: 0 auto;
 
@@ -84,15 +84,11 @@ body {
 
 
 nav {
-	
-	float: left;
-	
-	padding-left: 12%;
-	
-	background: white;
 
-    width: 100%
-  
+	float: left;
+	padding-left: 12%;
+	background: white;
+  width: 100%
 
 }
 
