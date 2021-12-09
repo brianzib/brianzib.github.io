@@ -33,35 +33,14 @@
 				
 			</ul>
 			</nav>
-    </div>
+			</div>
+			
+		<form autocomplete="off" action="/action_page.php">
+            <div class="autocomplete" style="width:100%;">
+            <input id="myInput" type="text"  placeholder="Search">
+            </div>
+        </form>
 	
-	
-
-	<div class = "Search-Whole">
-	<form autocomplete="off" action="/action_page.php">
-	<div class = "search show">
-    <div class = "icon"></div>
-	<div class = "input">
-	
-	<div class="autocomplete" style="width:100%;">
-		<input id = "myInput" type = "text" placeholder="Search"  name = "mySearch">
-	</div>
-	</div>
-    </div>
-    </div>
-    <span class = "clear" onclick="document.getElementById
-    ('mysearch').value = ''"></span>
-		<script>
-        autocomplete(document.getElementById("myInput"), countries);
-    </script>
-		
-	</form>
-	<script src = "script.js"></script>
-	</div>
-
-
-	
-
 	
 	
 		<h1 id = "HomePage-heading" > A-level Revision site </h1>
@@ -131,5 +110,13 @@
 		
 		
 	</body>
+	
+	 <script src = "script.js"></script>
+
+    <script>
+        autocomplete(document.getElementById("myInput"), countries);
+    </script>
+
+
 
 </html>
