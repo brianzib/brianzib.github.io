@@ -6,10 +6,8 @@
 	<head>
 
 		<meta charset = "utf-8"/>
-		
-		<base href = "file:///C:/Users/Oem/OneDrive/Documents/Brian/Web-site-development/Revision-site/Website%20Pages/Home-Page.html">
 
-		<link href = "Style-Sheet.css" rel = "stylesheet" type = "text/css" />
+		<link href = "index.css" rel = "stylesheet" type = "text/css" />
 
 		<title> Brian Zibiri's A-level Revision site </title>
 		
@@ -18,11 +16,11 @@
 	
 	<header>
 		
-		 <div class="container">
-		 
 		
-       
 
+
+
+		<div class="container">
       <nav>
         <ul>
 				<li><a href = "#">Home</a></li> 
@@ -34,9 +32,23 @@
         </ul>
       </nav>
     </div>
+	
+		<form autocomplete="off" action="/action_page.php">
+            <div class="autocomplete" style="width:100%;">
+            <input id="myInput" type="text"  placeholder="Search">
+            </div>
+        </form>
+	
 		
 		</header>
 	
+		
+	 <script src = "script.js"></script>
+
+    <script>
+        autocomplete(document.getElementById("myInput"), countries);
+    </script>
+
 	
 	
 
