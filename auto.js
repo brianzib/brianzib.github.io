@@ -63,7 +63,7 @@ function autocomplete(inp, arr)
           if (currentFocus > -1) {
             /*and simulate a click on the "active" item:*/
             if (x) x[currentFocus].click();
-          }
+          } 
         }
     });
     function addActive(x) {
