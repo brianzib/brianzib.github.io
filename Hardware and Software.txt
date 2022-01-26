@@ -1,0 +1,30 @@
+Hardware and Software (Fundementals of COmputer Systems)
+
+There are two types of hardware:
+
+External Components(Peripherals): These are the devices the user uses to communicate with the computer e.g. Mouse and Keyboard
+
+Internal Components(Processing + Storage): Housed within the computers casing, it includes all of the circuitry and 
+electrical compnents necessary for the fucntioning of the device
+
+Software is necessary for a computer as it represents the instructions for it to carry out. Common types of software includes:
+Word Processing Software, MultiMedia playeres and Browsers
+
+On top of that there are two distinct types of Software: Application and System Software
+
+Application Software refers to all of the software the user will interact with/use in order to 
+carry out their tasks
+
+System Software exists soley for the necessary fucntioning of the computer. It itself has sub caagotries 
+Utilty Programs 
+Library Programs
+Compilers, assemblers and interpreters 
+Operating System Software 
+
+Utility Software
+	Used to preform house keeping tasks on the device
+	Common examples are include: register cleaners, back-up, file compression amd disk management.
+
+Library Programs:
+	Unlike utility programs library programs are essential for certain application (that they where built for)
+	Examples include: Graphics Drivers (and most device drivers) memory managment 
